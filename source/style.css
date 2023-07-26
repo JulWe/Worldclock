@@ -1,3 +1,62 @@
 body {
+    background-color: #e7eaf6;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h2 {
+   margin: 0 0 5px;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+date {
+    opacity: 0.7;
+}
+.container {
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    margin: 60px auto;
+    box-shadow: 8px 10px 60px #a2a8d3;
+    border-radius: 4px;
+}
+
+.city {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    border-bottom: 2px dashed #a2a8d3;
+    padding: 20px 0;
+}
+
+.city:last-child {
+    border: none;
+}
+
+.time {
+    font-size: 45px;
+    font-weight: 400;
+}
+.time small {
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+footer {
     text-align: center;
 }
