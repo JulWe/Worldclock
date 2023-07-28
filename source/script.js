@@ -38,6 +38,7 @@ function updateTime() {
     );
   }
 }
+
 function updateCity(event) {
     let cityTimeZone = event.target.value;
     if (cityTimeZone === "current") {
@@ -60,8 +61,11 @@ function updateCity(event) {
         </div>
         <a href="/">Go back</>
     `;
-
+    setTimeout(() => {
+        updateCity(event);
+    }, 1000);
 }
+
 
 updateTime();
 setInterval(updateTime, 1000);
